@@ -1,4 +1,4 @@
-public enum ModificatorType
+public enum StatType
 {
     Speed,
     JumpStrength

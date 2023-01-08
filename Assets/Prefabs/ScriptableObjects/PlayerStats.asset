@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d455f353ef5993b45b55e138d634d6f2, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  jumpStrength: 500
+  stats:
+  - type: 0
+    value: 10
+  - type: 1
+    value: 500

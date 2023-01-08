@@ -1,11 +1,31 @@
 using UnityEngine;
+using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "Stats", menuName = "Stats", order = 1)]
+[CreateAssetMenu(fileName = "Stats", menuName = "Stats", order = 3)]
 public class Stats : ScriptableObject
 {
-    [SerializeField] private float moveSpeed = 1f;
-    [SerializeField] private float jumpStrength = 1f;
+    [SerializeField] private List<Stat> stats = new List<Stat>();
 
-    public float Speed { get { return moveSpeed; } }
-    public float JumpStrength { get { return jumpStrength; } }
+    public float GetStatValue(StatType type)
+    {
+        foreach (var stat in stats)
+        {
+            if (stat.Type == type)
+            {
+                return stat.Value;
+            }
+        }
+
+        return -1;
+    }
+
+    [System.Serializable]
+    public class Stat
+    {
+        [SerializeField] private StatType type;
+        [SerializeField] private float value;
+
+        public StatType Type { get { return type; } }
+        public float Value { get { return value; } }
+    }
 }

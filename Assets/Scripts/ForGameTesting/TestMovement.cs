@@ -34,16 +34,17 @@ public class TestMovement : MonoBehaviour
 
     private void Move(float direction)
     {
+        Debug.Log(statsManager.GetModifiedStat(StatType.Speed));
         rigidbody2D.velocity = new Vector2(
-            statsManager.GetModifiedSpeed() * direction, 
+            statsManager.GetModifiedStat(StatType.Speed) * direction, 
             rigidbody2D.velocity.y);
     }
 
     private void Jump()
     {
-        Debug.Log("JUMP");
+        Debug.Log(statsManager.GetModifiedStat(StatType.JumpStrength));
         rigidbody2D.AddForce(new Vector2(
             0, 
-            statsManager.GetModifiedJumpStrength()));
+            statsManager.GetModifiedStat(StatType.JumpStrength)));
     }
 }

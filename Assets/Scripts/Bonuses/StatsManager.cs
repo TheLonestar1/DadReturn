@@ -14,7 +14,7 @@ public class StatsManager : MonoBehaviour
         modificators.Add(modificator);
     }
 
-    public void RemoveModificator(ModificatorType type)
+    public void RemoveModificator(StatType type)
     {
         for (int i = 0; i < modificators.Count; i++)
         {
@@ -25,18 +25,12 @@ public class StatsManager : MonoBehaviour
         }
     }
 
-    // Модифицируется в процентах
-    public float GetModifiedSpeed()
+    public float GetModifiedStat(StatType type)
     {
-        return stats.Speed * GetModificators(ModificatorType.Speed);
+        return stats.GetStatValue(type) * GetModificators(type);
     }
 
-    public float GetModifiedJumpStrength()
-    {
-        return stats.JumpStrength * GetModificators(ModificatorType.JumpStrength);
-    }
-
-    private float GetModificators(ModificatorType type)
+    private float GetModificators(StatType type)
     {
         float percentage = 1f;
         foreach (var mod in modificators)
@@ -49,4 +43,6 @@ public class StatsManager : MonoBehaviour
 
         return percentage;
     }
+
+    
 }
