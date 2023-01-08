@@ -45,6 +45,6 @@ public class TestMovement : MonoBehaviour
         Debug.Log(statsManager.GetModifiedStat(StatType.JumpStrength));
         rigidbody2D.AddForce(new Vector2(
             0, 
-            statsManager.GetModifiedStat(StatType.JumpStrength)));
+            statsManager.GetModifiedStat(StatType.JumpStrength)),ForceMode2D.Impulse);
     }
 }
