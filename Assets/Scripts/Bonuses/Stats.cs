@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "Stats", menuName = "Stats", order = 3)]
+[CreateAssetMenu(fileName = "Stats", menuName = "Create new Stats", order = 3)]
 public class Stats : ScriptableObject
 {
     [SerializeField] private List<Stat> stats = new List<Stat>();
