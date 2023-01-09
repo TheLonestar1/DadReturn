@@ -15,11 +15,13 @@ public class DialogueController : MonoBehaviour
 
     private int _currentDialogueLineIndex = -1;
     private bool isDialogueActive = false;
+    private bool isPanelInitialized = false;
 
     private void Start()
     {   
         // подписка на событие для начала диалога
         DialogueArea.OnEnteringDialogue += LoadDialogue;
+        InitializeDialoguePanel();
     }
 
     private void Update() 
@@ -34,11 +36,16 @@ public class DialogueController : MonoBehaviour
         }
     }
 
+    private void InitializeDialoguePanel()
+    {   
+        dialoguePanel.SetActive(false);
+    }
+
     public void LoadDialogue(Dialogue dialogue)
     {
         ActivateDialoguePanel();
         currentDialogue = dialogue;
-        // -1 
+        // -1 - чтобы диалог начинался с первой строчки
         _currentDialogueLineIndex = -1;
         NextDialogueLine();
     }

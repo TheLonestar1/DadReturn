@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbbe503dd23b52f4492c6a46b81ac564, type: 3}
   m_Name: TestSpeaker2
   m_EditorClassIdentifier: 
-  speakerName: 
-  portrait: {fileID: 0}
-  color: {r: 0, g: 0, b: 0, a: 0}
+  speakerName: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439 \u043A\u0440\u0443\u0433"
+  portrait: {fileID: 21300000, guid: ea9b11ddaccc8884292c10e69a0b0854, type: 3}
+  color: {r: 1, g: 0.023584902, b: 0.023584902, a: 1}

@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 898b40226ca1dd049885844800ec796b, type: 3}
   m_Name: TestDialogue2
   m_EditorClassIdentifier: 
-  dialogueLines: []
+  dialogueLines:
+  - speakerData: {fileID: 11400000, guid: 78a1b1dbedfcf0c45ad6842266c5037d, type: 2}
+    text: "\u0417\u043D\u0430\u0435\u0448\u044C, \u0433\u0434\u0435 \u043C\u0435\u0434\u0432\u0435\u0434\u044C?"
+  - speakerData: {fileID: 11400000, guid: e916e51a7f5c22846bc40420a02ef7cf, type: 2}
+    text: "\u0413\u0434\u0435?"
+  - speakerData: {fileID: 11400000, guid: 78a1b1dbedfcf0c45ad6842266c5037d, type: 2}
+    text: "\u0412 \u043C\u0430\u0448\u0438\u043D\u0435"
