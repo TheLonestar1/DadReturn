@@ -286,8 +286,8 @@ GameObject:
   - component: {fileID: 722414256}
   - component: {fileID: 722414255}
   - component: {fileID: 722414260}
-  - component: {fileID: 722414259}
-  m_Layer: 0
+  - component: {fileID: 722414261}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -410,18 +410,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &722414259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 722414254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 614ad5cb9cd9e624fbb1074a456f2d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &722414260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,6 +424,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: b352e1e294e5c7b43aa64a8ddbf17643, type: 2}
   modificators: []
+--- !u!114 &722414261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722414254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89062740c5aa10443bddb9c71aa1720e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lastGroundedTime: 0
+  _distanceRay: 0.35
+  _jumpSlowing: 5
 --- !u!1 &993946226
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,9 +451,9 @@ GameObject:
   - component: {fileID: 993946229}
   - component: {fileID: 993946228}
   - component: {fileID: 993946227}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -703,9 +706,9 @@ GameObject:
   - component: {fileID: 1434128918}
   - component: {fileID: 1434128917}
   - component: {fileID: 1434128916}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -893,9 +896,9 @@ GameObject:
   - component: {fileID: 1578428322}
   - component: {fileID: 1578428321}
   - component: {fileID: 1578428320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1178,9 +1181,9 @@ GameObject:
   - component: {fileID: 2064045665}
   - component: {fileID: 2064045664}
   - component: {fileID: 2064045663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
