@@ -13,7 +13,6 @@ public class StatsManager : MonoBehaviour
         RemoveModificator(modificator.Type);
         modificators.Add(modificator);
     }
-
     public void RemoveModificator(StatType type)
     {
         for (int i = 0; i < modificators.Count; i++)

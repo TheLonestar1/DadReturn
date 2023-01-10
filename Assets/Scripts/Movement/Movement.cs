@@ -34,7 +34,6 @@ public class Movement : MonoBehaviour
         Debug.DrawRay(this.gameObject.GetComponent<Transform>().position, Vector2.down * _distanceRay);
         if (raycastHit.collider != null)
         {
-            Debug.Log(raycastHit.collider.gameObject.tag);
             if (raycastHit.collider.gameObject.CompareTag("Ground"))
                 _isGrounded = true;
             else

@@ -1,5 +1,6 @@
 public enum StatType
 {
     Speed,
-    JumpStrength
+    JumpStrength,
+    Health
 }
