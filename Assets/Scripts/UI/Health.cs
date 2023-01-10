@@ -29,7 +29,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    public void DecreasHealth()
+    public void DecreaseHealth()
     {
         Destroy(_healths[^1]);
         _healths.Remove(_healths[^1]);

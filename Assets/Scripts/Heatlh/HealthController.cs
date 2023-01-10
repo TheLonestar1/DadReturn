@@ -15,7 +15,7 @@ public class HealthController : MonoBehaviour
     void TakeDamage()
     {
         health--;
-        GetComponent<Health>().DecreasHealth();
+        GetComponent<Health>().DecreaseHealth();
         if (health < 0)
         {
             Debug.Log("GameOver");

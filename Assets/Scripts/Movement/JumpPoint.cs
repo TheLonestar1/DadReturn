@@ -6,7 +6,7 @@ using UnityEngine;
 public class JumpPoint : MonoBehaviour
 {
     public static event Action onJumpPointEntering; // Когда игрок заходит в точку прыжка
-    public static event Action onJumpPointExiting; // когда игрок выходит из точки прыжка
+    public static event Action onJumpPointExitingOrUsed; // когда игрок выходит из точки прыжка
 
     [SerializeField] private float _reloadPointTime = 3; // время перезарядки точки
     [SerializeField] SpriteRenderer _sprite; 
@@ -15,6 +15,7 @@ public class JumpPoint : MonoBehaviour
     private float _timeAfterLastJump = Mathf.Infinity;
     private Color _colorOnReady; // Цвет, когда точка активна
     private bool _isPointReady; // активна ли точка
+    private Movement _playerOnPoint;
 
     void Start()
     {
@@ -23,20 +24,28 @@ public class JumpPoint : MonoBehaviour
 
     private void Update()
     {
-        _timeAfterLastJump += Time.deltaTime;
         if (_reloadPointTime < _timeAfterLastJump) // если точка готова
         {
             _sprite.color = _colorOnReady;
+            _isPointReady = true;
         }
+        _timeAfterLastJump += Time.deltaTime;
+    }
+
+    public void SetPointAsUsed()
+    {
+        _sprite.color = _colorOnNotReady;
+        _isPointReady = false;
+        _timeAfterLastJump = 0f;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player" && _reloadPointTime < _timeAfterLastJump)
+        var player = other.GetComponent<Movement>();
+        if (player.gameObject && _isPointReady)
         {
+            _playerOnPoint = player;
             onJumpPointEntering?.Invoke();
-            _timeAfterLastJump = 0f;
-            _sprite.color = _colorOnNotReady;
         }
     }
 
@@ -44,7 +53,7 @@ public class JumpPoint : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            onJumpPointExiting?.Invoke();
+            onJumpPointExitingOrUsed?.Invoke();
         }
     }
 }

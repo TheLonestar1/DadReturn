@@ -4,11 +4,12 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 public class DialogueController : MonoBehaviour
 {
-    public static event Action OnDialogueStart;
-    public static event Action OnDialogueEnd;
+    public static event Action onDialogueStart;
+    public static event Action onDialogueEnd;
 
     // Объекты для хранения информации о диалоге
     [SerializeField] private GameObject dialoguePanel = null;
@@ -21,11 +22,25 @@ public class DialogueController : MonoBehaviour
     private bool isDialogueActive = false;
     private bool isPanelInitialized = false;
 
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
+
     private void Start()
     {   
+        InitializeDialoguePanel();
+    }
+
+    void OnEnable()
+    {
         // подписка на событие для начала диалога
         DialogueArea.OnEnteringDialogue += StartDialogue;
-        InitializeDialoguePanel();
+    }
+
+    void OnDisable()
+    {
+        DialogueArea.OnEnteringDialogue -= StartDialogue;
     }
 
     private void Update() 
@@ -51,7 +66,7 @@ public class DialogueController : MonoBehaviour
         currentDialogue = dialogue;
         // -1 - чтобы диалог начинался с первой строчки
         _currentDialogueLineIndex = -1;
-        OnDialogueStart?.Invoke();
+        onDialogueStart?.Invoke();
         NextDialogueLine();
     }
 
@@ -78,7 +93,7 @@ public class DialogueController : MonoBehaviour
 
         if (dialogueLine == null)
         {
-            OnDialogueEnd?.Invoke();
+            onDialogueEnd?.Invoke();
             DeactivateDialoguePanel();
             return;
         }
