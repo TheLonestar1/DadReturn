@@ -5,10 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(StatsManager))]
 public class Movement : MonoBehaviour
 {
-    private StatsManager statsManager;
-    private new Transform transform;
-    private Rigidbody2D rigidbody2D;
+    private StatsManager _statsManager;
+    private Transform _transform;
+    private Rigidbody2D _rigidbody2D;
     private bool _isGrounded;
+    private bool _isInJumpPoint;
 
     [SerializeField] private float _lastGroundedTime;
     [SerializeField]  private float _distanceRay;
@@ -17,11 +18,13 @@ public class Movement : MonoBehaviour
 
     private void Start()
     {
-        statsManager = GetComponent<StatsManager>();
-        transform = GetComponent<Transform>();
-        rigidbody2D = GetComponent<Rigidbody2D>(); 
+        _statsManager = GetComponent<StatsManager>();
+        _transform = GetComponent<Transform>();
+        _rigidbody2D = GetComponent<Rigidbody2D>(); 
         DialogueController.OnDialogueStart += DisableMovement;
         DialogueController.OnDialogueEnd += EnableMovement;
+        JumpPoint.onJumpPointEntering += EnableJumpingOnPoint;
+        JumpPoint.onJumpPointExiting += DisableJumpingOnPoint;
     } 
 
     private void FixedUpdate()
@@ -47,29 +50,31 @@ public class Movement : MonoBehaviour
         {
             _isGrounded = false;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && _isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && (_isGrounded || _isInJumpPoint ))
         {
             Jump();
         }
     }
+    
     private void Move(float direction)
     {
         if(_isGrounded)
-        rigidbody2D.velocity = new Vector2(
-            statsManager.GetModifiedStat(StatType.Speed) * direction, 
-            rigidbody2D.velocity.y);
+        _rigidbody2D.velocity = new Vector2(
+            _statsManager.GetModifiedStat(StatType.Speed) * direction, 
+            _rigidbody2D.velocity.y);
         else
-            rigidbody2D.velocity = new Vector2(
-                statsManager.GetModifiedStat(StatType.Speed) * direction  / _jumpSlowing,
-                rigidbody2D.velocity.y);
+            _rigidbody2D.velocity = new Vector2(
+                _statsManager.GetModifiedStat(StatType.Speed) * direction  / _jumpSlowing,
+                _rigidbody2D.velocity.y);
     }
 
     private void Jump()
     {
-        Debug.Log(statsManager.GetModifiedStat(StatType.JumpStrength));
-        rigidbody2D.AddForce(new Vector2(
+        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, 0);
+        Debug.Log(_statsManager.GetModifiedStat(StatType.JumpStrength));
+        _rigidbody2D.AddForce(new Vector2(
             0, 
-            statsManager.GetModifiedStat(StatType.JumpStrength)),ForceMode2D.Impulse);
+            _statsManager.GetModifiedStat(StatType.JumpStrength)),ForceMode2D.Impulse);
     }
 
     private void EnableMovement()
@@ -80,6 +85,16 @@ public class Movement : MonoBehaviour
     private void DisableMovement()
     {
         _isMovementActive = false;
-        rigidbody2D.velocity = new Vector2(0, 0);
+        _rigidbody2D.velocity = new Vector2(0, 0);
+    }
+
+    private void EnableJumpingOnPoint()
+    {
+        _isInJumpPoint = true;
+    }
+
+    private void DisableJumpingOnPoint()
+    {
+        _isInJumpPoint = false;
     }
 }
