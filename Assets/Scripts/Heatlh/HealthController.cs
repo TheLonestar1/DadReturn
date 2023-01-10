@@ -12,6 +12,7 @@ public class HealthController : MonoBehaviour
     {
         StaticTrap.OnEnteringTrap += TakeDamage;
     }
+    
     void TakeDamage()
     {
         health--;

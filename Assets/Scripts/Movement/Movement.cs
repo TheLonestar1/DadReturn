@@ -27,6 +27,8 @@ public class Movement : MonoBehaviour
     {
         DialogueController.onDialogueStart += DisableMovement;
         DialogueController.onDialogueEnd += EnableMovement;
+        CheckPointController.onDie += DisableMovement;
+        CheckPointController.onRespawn += EnableMovement;
         JumpPoint.onJumpPointEntering += EnableJumpingOnPoint;
         JumpPoint.onJumpPointExitingOrUsed += DisableJumpingOnPoint;
     }
