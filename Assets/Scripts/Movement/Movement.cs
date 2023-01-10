@@ -9,27 +9,31 @@ public class Movement : MonoBehaviour
     private new Transform transform;
     private Rigidbody2D rigidbody2D;
     private bool _isGrounded;
+
     [SerializeField] private float _lastGroundedTime;
     [SerializeField]  private float _distanceRay;
     [SerializeField] private float _jumpSlowing;
+    [SerializeField] private bool _isMovementActive = true;
+
     private void Start()
     {
         statsManager = GetComponent<StatsManager>();
         transform = GetComponent<Transform>();
         rigidbody2D = GetComponent<Rigidbody2D>(); 
+        DialogueController.OnDialogueStart += DisableMovement;
+        DialogueController.OnDialogueEnd += EnableMovement;
     } 
 
     private void FixedUpdate()
     {
-       
+       if (!_isMovementActive) return;
         float direction = Input.GetAxisRaw("Horizontal");
         Move(direction);
-        
-
     }
 
     private void Update()
     {
+        if (!_isMovementActive) return;
         RaycastHit2D raycastHit = Physics2D.Raycast(gameObject.GetComponent<Transform>().position, Vector2.down * _distanceRay, _distanceRay, layerMask: LayerMask.GetMask("Ground"));
         Debug.DrawRay(this.gameObject.GetComponent<Transform>().position, Vector2.down * _distanceRay);
         if (raycastHit.collider != null)
@@ -66,5 +70,16 @@ public class Movement : MonoBehaviour
         rigidbody2D.AddForce(new Vector2(
             0, 
             statsManager.GetModifiedStat(StatType.JumpStrength)),ForceMode2D.Impulse);
+    }
+
+    private void EnableMovement()
+    {
+        _isMovementActive = true;
+    }
+
+    private void DisableMovement()
+    {
+        _isMovementActive = false;
+        rigidbody2D.velocity = new Vector2(0, 0);
     }
 }
