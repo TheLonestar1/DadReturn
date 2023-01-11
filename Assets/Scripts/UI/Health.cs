@@ -12,7 +12,6 @@ public class Health : MonoBehaviour
     float _curretHealth;
     private void Start()
     {
-        
         Canvas canvas = GetComponent<Canvas>();
         for(int i = 0; i < stat.GetStatValue(StatType.Health); i++)
         {
@@ -39,6 +38,7 @@ public class Health : MonoBehaviour
             //GameOver
         }
     }
+    
     public void AddHealth()
     {
         Canvas canvas = GetComponent<Canvas>();

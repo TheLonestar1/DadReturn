@@ -10,6 +10,7 @@ public class DialogueController : MonoBehaviour
 {
     public static event Action onDialogueStart;
     public static event Action onDialogueEnd;
+    public static event Action onVideoPlay;
 
     // Объекты для хранения информации о диалоге
     [SerializeField] private GameObject dialoguePanel = null;
@@ -21,6 +22,8 @@ public class DialogueController : MonoBehaviour
     private int _currentDialogueLineIndex = -1;
     private bool isDialogueActive = false;
     private bool isPanelInitialized = false;
+
+    public int CurrentDialogueLineIndex { get { return _currentDialogueLineIndex; } }
 
     private void Start()
     {   
@@ -78,7 +81,7 @@ public class DialogueController : MonoBehaviour
     }
 
     // Загрузка следующей строчки диалога
-    public void NextDialogueLine()
+    private void NextDialogueLine()
     {
         _currentDialogueLineIndex++;
         DialogueLine dialogueLine = currentDialogue.GetDialogueLine
