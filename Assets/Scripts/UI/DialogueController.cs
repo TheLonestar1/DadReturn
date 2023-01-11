@@ -22,11 +22,6 @@ public class DialogueController : MonoBehaviour
     private bool isDialogueActive = false;
     private bool isPanelInitialized = false;
 
-    void Awake()
-    {
-        DontDestroyOnLoad(this);
-    }
-
     private void Start()
     {   
         InitializeDialoguePanel();

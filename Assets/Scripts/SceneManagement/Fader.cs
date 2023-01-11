@@ -11,6 +11,7 @@ public class Fader : MonoBehaviour
     private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
+        DontDestroyOnLoad(this.gameObject);
     }
 
     void Start()
