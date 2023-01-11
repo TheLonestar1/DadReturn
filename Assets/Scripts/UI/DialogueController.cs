@@ -16,8 +16,11 @@ public class DialogueController : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel = null;
     [SerializeField] private TMP_Text tmp_speakerName = null;
     [SerializeField] private TMP_Text tmp_dialogueLine = null;
+    [SerializeField] private TMP_Text tmp_dialogueHint = null; // Подсказка для продолжения диалога
     [SerializeField] private Image portrait = null;
     [SerializeField] private Dialogue currentDialogue = null;
+    [SerializeField] private float timeOfLetterShowing = 0.01f;
+    [SerializeField] private KeyCode keyToContinueDialogue = KeyCode.F;
 
     private int _currentDialogueLineIndex = -1;
     private bool isDialogueActive = false;
@@ -28,6 +31,7 @@ public class DialogueController : MonoBehaviour
     private void Start()
     {   
         InitializeDialoguePanel();
+        tmp_dialogueHint.text = "Нажмите " + keyToContinueDialogue.ToString() + ", чтобы продолжить";
     }
 
     void OnEnable()
@@ -46,7 +50,7 @@ public class DialogueController : MonoBehaviour
         if (isDialogueActive)
         {
             // при нажатии клавиши - следующая строчка диалога
-            if (Input.GetKeyUp(KeyCode.F))
+            if (Input.GetKeyUp(keyToContinueDialogue))
             {
                 NextDialogueLine();
             }
@@ -96,9 +100,20 @@ public class DialogueController : MonoBehaviour
             return;
         }
 
+        StopAllCoroutines();
         tmp_speakerName.text = dialogueLine.speakerData.name;
-        tmp_dialogueLine.text = dialogueLine.text;
+        StartCoroutine(TextVisualisation(dialogueLine.text));
         portrait.sprite = dialogueLine.speakerData.portrait;
         portrait.color = dialogueLine.speakerData.color;
+    }
+
+    private IEnumerator TextVisualisation(string text)
+    {
+        tmp_dialogueLine.text = "";
+        foreach (var letter in text)
+        {
+            tmp_dialogueLine.text += letter;
+            yield return new WaitForSeconds(timeOfLetterShowing);
+        }
     }
 }

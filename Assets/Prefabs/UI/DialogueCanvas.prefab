@@ -679,5 +679,8 @@ MonoBehaviour:
   dialoguePanel: {fileID: 6643239605605268641}
   tmp_speakerName: {fileID: 6643239604402747828}
   tmp_dialogueLine: {fileID: 6643239604808460787}
+  tmp_dialogueHint: {fileID: 491864297}
   portrait: {fileID: 6643239605410871928}
   currentDialogue: {fileID: 0}
+  timeOfLetterShowing: 0.03
+  keyToContinueDialogue: 32
