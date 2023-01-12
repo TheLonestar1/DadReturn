@@ -7,4 +7,5 @@ public class DialogueLine
 {
     public SpeakerData speakerData;
     public string text;
+    public AudioClip voiceText;
 }
