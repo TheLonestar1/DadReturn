@@ -103,7 +103,7 @@ public class DialogueController : MonoBehaviour
         }
 
         StopAllCoroutines();
-        tmp_speakerName.text = dialogueLine.speakerData.name;
+        tmp_speakerName.text = dialogueLine.speakerData.speakerName;
         if (dialogueLine.voiceText != null)
         {
             audioManager.audioSource.clip = dialogueLine.voiceText;

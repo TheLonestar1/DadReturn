@@ -14,17 +14,24 @@ public class SceneTransition : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            StartCoroutine(Transition());
+            StartTransition();
         }
     }
 
-    public IEnumerator Transition()
+    public void StartTransition()
     {
         Fader fader = FindObjectOfType<Fader>();
+        StopAllCoroutines();
+        fader.FadeInImmediately();
+        StartCoroutine(Transition(fader));
+    }
+
+    private IEnumerator Transition(Fader fader)
+    {
         DontDestroyOnLoad(gameObject);
         yield return fader.FadeOut(fadeOutTime);
-        yield return SceneManager.LoadSceneAsync(sceneToLoad);
         yield return new WaitForSeconds(fadeWaitTime);
+        yield return SceneManager.LoadSceneAsync(sceneToLoad);
         yield return fader.FadeIn(fadeInTime);
         Destroy(gameObject);
     }

@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afa2ea17388e17846865f812d1467a5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 4987d44a87b68734eaf706ae03e2d2f6, type: 2}
+  dialogue: {fileID: 11400000, guid: b6642e22b5203f44688bd03a16e1346a, type: 2}
 --- !u!1 &1506126803282374116
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +89,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2557899896900450287
 Transform:
   m_ObjectHideFlags: 0

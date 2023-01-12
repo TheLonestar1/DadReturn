@@ -9,7 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/SukaTestGovna.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6fb42d2385af9db4580f85847a8394aa
+  - enabled: 1
+    path: Assets/Scenes/EnteringScene.unity
+    guid: 61a9a3c648c1963408bf4b98afad5ac9
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
     guid: f51135a04e747f74ea4385005c662842
   - enabled: 1
     path: Assets/Scenes/FirstScene.unity

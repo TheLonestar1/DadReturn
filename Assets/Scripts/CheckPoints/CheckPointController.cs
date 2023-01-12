@@ -29,7 +29,11 @@ public class CheckPointController : MonoBehaviour
         if (trap)
         {
             StopAllCoroutines();
-            fader.FadeInImmediately();
+            if (fader != null)
+            {
+                fader.FadeInImmediately();
+            }
+            
             StartCoroutine(TeleportOnPoint());
         }
     }
@@ -38,8 +42,6 @@ public class CheckPointController : MonoBehaviour
     {
         currentCheckPoint = point;
     }
-
-
 
     private IEnumerator TeleportOnPoint()
     {
