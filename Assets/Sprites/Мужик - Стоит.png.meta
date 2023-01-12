@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5426a7b48babd5641b0387a070727afb
+guid: 2bbb9ff2f05e06d48b5654934e0266fe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 2
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,537 +117,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Muzhik_-_Stoit_0
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_0"
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1605
-        width: 192
-        height: 440
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 256f5624ff26a5c429c63be9a0b16692
-      internalID: 158183533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_1
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 1605
-        width: 192
-        height: 443
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa718b2e4b7eab14d9007cad7c86bb22
-      internalID: 2003618528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_2
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 1605
-        width: 192
-        height: 443
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1e229a79cfe0f84ea1425c02f00ca79
-      internalID: -1203089026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_3
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 1605
-        width: 192
-        height: 442
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f71dff8c934a58f4eac9d6bcac37330b
-      internalID: -1135433674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_4
-      rect:
-        serializedVersion: 2
-        x: 795
-        y: 1606
-        width: 192
-        height: 442
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cebfe1f7e56c28542935fcf69a636daa
-      internalID: 1791790113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_5
-      rect:
-        serializedVersion: 2
-        x: 995
-        y: 1606
-        width: 194
-        height: 442
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4791ce65f35e5b048a08e5b61999d165
-      internalID: -2066765606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_6
-      rect:
-        serializedVersion: 2
-        x: 1195
-        y: 1606
-        width: 194
-        height: 441
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31909cdb303cee048a3c6a7684b42402
-      internalID: -1727092844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_7
-      rect:
-        serializedVersion: 2
-        x: 1395
-        y: 1606
-        width: 194
-        height: 439
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f998672d82c8b14186416edd381c47b
-      internalID: -204718715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_8
-      rect:
-        serializedVersion: 2
-        x: 1595
-        y: 1607
-        width: 198
-        height: 441
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4e189a0387e14a4286cba1b6c3f9d20
-      internalID: -934607803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_9
-      rect:
-        serializedVersion: 2
-        x: 1797
-        y: 1607
-        width: 198
-        height: 441
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5611198407561704895044ea7f24711c
-      internalID: -310067786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_10
-      rect:
-        serializedVersion: 2
-        x: 2001
-        y: 1607
-        width: 196
-        height: 440
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9ec901d5978ce445b235faa90e5923a
-      internalID: -2104184493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_11
-      rect:
-        serializedVersion: 2
-        x: 2205
-        y: 1607
-        width: 198
-        height: 438
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 866a6bbdce661f648bb35f6ae94bb3bb
-      internalID: 1266778466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_12
-      rect:
-        serializedVersion: 2
-        x: 2411
-        y: 1609
-        width: 198
-        height: 439
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7037b4513027cfc45b4bcc5cee8fd3cd
-      internalID: 965954695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_13
-      rect:
-        serializedVersion: 2
-        x: 2615
-        y: 1608
-        width: 200
-        height: 440
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbb0fae6778bca04f8c81662fa2046ce
-      internalID: -1535662192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_14
-      rect:
-        serializedVersion: 2
-        x: 2821
-        y: 1609
-        width: 200
-        height: 438
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e86ad942fcacd34f86f72f204ea8b09
-      internalID: -1256698088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_15
-      rect:
-        serializedVersion: 2
-        x: 3027
-        y: 1609
-        width: 200
-        height: 436
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5016b0a3a1ffce44a8f8d058f3fdda88
-      internalID: -536545618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_16
-      rect:
-        serializedVersion: 2
-        x: 3235
-        y: 1611
-        width: 200
-        height: 436
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95ca07c6063ede0488044b4ce3947d43
-      internalID: -1818783317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_17
-      rect:
-        serializedVersion: 2
-        x: 3443
-        y: 1611
-        width: 200
-        height: 437
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2dc9ae0349f8924a8c99d087ea445b0
-      internalID: 802572764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_18
-      rect:
-        serializedVersion: 2
-        x: 3649
-        y: 1611
-        width: 202
-        height: 434
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1597135f9ae4cc44f9fc14c1263a39cc
-      internalID: 1771675933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_19
-      rect:
-        serializedVersion: 2
-        x: 3857
-        y: 1611
-        width: 202
-        height: 437
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2af0986ddf8f722498a144e35be0a1f5
-      internalID: 1877515615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_20
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1163
-        width: 204
-        height: 434
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf79bd3fe725a974da9b52a576e2d492
-      internalID: 1431114396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_21
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 1165
-        width: 204
-        height: 435
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a48d3b2a08cdc94bbee8c5560fd17a0
-      internalID: 1409974571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_22
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 1165
-        width: 206
-        height: 432
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82b2cf0acd8e370429ff7977062f06e3
-      internalID: 2073030974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_23
-      rect:
-        serializedVersion: 2
-        x: 633
-        y: 1165
-        width: 206
-        height: 435
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1165e4e32b856ba49a98ac96caf2d8fd
-      internalID: 625164590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_24
-      rect:
-        serializedVersion: 2
-        x: 845
-        y: 1165
-        width: 206
-        height: 432
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fc10eabc3757cb47b3933e9a5ac65cc
-      internalID: -391132973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_25
-      rect:
-        serializedVersion: 2
-        x: 1059
-        y: 1167
-        width: 206
+        x: 0
+        y: 1615
+        width: 183
         height: 433
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -656,19 +131,397 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af11916daea563442881a8b48c690c90
-      internalID: 1501784954
+      spriteID: 87eaa38a5823f6b4db9f0280a46e675a
+      internalID: 1586107838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Muzhik_-_Stoit_26
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_1"
       rect:
         serializedVersion: 2
-        x: 1269
-        y: 1167
-        width: 208
+        x: 205
+        y: 1615
+        width: 186
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a14d6bdf7a26874094eee84a44a7675
+      internalID: -1783519276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_2"
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1615
+        width: 186
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf460e328772c4438af705b8db8f969
+      internalID: 791570995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_3"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1615
+        width: 186
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347d72ed51058d64ebf0a3ba0d81aa07
+      internalID: -2039015244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_4"
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1615
+        width: 186
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d3f046fe0e6c8498e27b57a3c75980
+      internalID: -1060148410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_5"
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1617
+        width: 188
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2047c1328b434b2439feba593d44caa4
+      internalID: -1976566842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_6"
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1617
+        width: 188
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb688aad9aa84f74cbad7dcb6d15d281
+      internalID: 525484399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_7"
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1617
+        width: 190
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24686ea3a42b8ba4889b47ee1149aee5
+      internalID: -1102950551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_8"
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1617
+        width: 191
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddfad6193f557f448998eeee8cf8c6d
+      internalID: 364328251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_9"
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1619
+        width: 190
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a38f6872b04b5a459523ab36dd8b672
+      internalID: -1305522580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_10"
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 1617
+        width: 192
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4469438ddc28d3a4f9701c88433c0689
+      internalID: -1416628730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_11"
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 1617
+        width: 192
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21f175dee9a69c47a34658b297b6638
+      internalID: -1087509826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_12"
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 1619
+        width: 194
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea1dd5b3445ef04887fdade1677c387
+      internalID: 633634816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_13"
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 1619
+        width: 194
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8859c44badec9d84f9b1e58c36485bc2
+      internalID: -1449669134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_14"
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 1619
+        width: 194
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8196756a46926324b8d2b574dbb1efe8
+      internalID: -845209658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_15"
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 1619
+        width: 194
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1112cd922de9c8f4f8fc5bd2e145959f
+      internalID: 1794960066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_16"
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 1619
+        width: 194
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7867a18719f9e64ba47fdc51ea13151
+      internalID: -1124969134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_17"
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 1619
+        width: 194
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8773417a3ad624e8ef9cb3d3737b5b
+      internalID: 1836911530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_18"
+      rect:
+        serializedVersion: 2
+        x: 3803
+        y: 1621
+        width: 196
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed4a8e21252d4946af0be241b1ea38e
+      internalID: -98263875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_19"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1163
+        width: 195
         height: 430
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -677,20 +530,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30dccbd299ba38a4881d6ff55e41ce0b
-      internalID: -55126989
+      spriteID: a44dbc373fcf2234baa18d6f51d9a6b2
+      internalID: 1504390475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Muzhik_-_Stoit_27
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_21"
       rect:
         serializedVersion: 2
-        x: 1483
-        y: 1166
-        width: 207
-        height: 433
+        x: 215
+        y: 1165
+        width: 196
+        height: 430
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -698,20 +551,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 204d25cac7f14b74693af4879cebb8dc
-      internalID: 1723265169
+      spriteID: d43d7532266c2784c8e859bce6a955c2
+      internalID: 174566473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Muzhik_-_Stoit_28
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_22"
       rect:
         serializedVersion: 2
-        x: 1688
-        y: 0
-        width: 2069
-        height: 1599
+        x: 433
+        y: 1165
+        width: 198
+        height: 428
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -719,19 +572,376 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1084bda6ea4a2824e9271627a2e228d9
-      internalID: -1654245457
+      spriteID: 976b24ce30449c14baa3161ee14c8f06
+      internalID: 2113934751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Muzhik_-_Stoit_29
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_23"
       rect:
         serializedVersion: 2
-        x: 1695
-        y: 1166
-        width: 206
+        x: 651
+        y: 1165
+        width: 200
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b23eb827a0f044cb4a497581579050
+      internalID: 1277063516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_24"
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1165
+        width: 200
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb3db76c59930e41ace659eeb74a7e9
+      internalID: 1405183815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_25"
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1167
+        width: 200
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49216c9f1de3cb749886d20ca6981b7f
+      internalID: 101849362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_26"
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1167
+        width: 200
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc675febc203b044b5a15c25f5df8eb
+      internalID: 442678866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_27"
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1167
+        width: 202
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1847dcfa48b054a8a485f1346536ae
+      internalID: 1623334089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_28"
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1167
+        width: 202
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b253786788a1e81429ec7b01dcac87d9
+      internalID: 1089271448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_29"
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1169
+        width: 202
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169ba47f6c811444d8b321714d8fae77
+      internalID: 695784174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_30"
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1167
+        width: 200
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9f9e5d4c218714cb4d15214d5002db
+      internalID: 865312919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_31"
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 1167
+        width: 198
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2808b1dbfd2f7ee49a31f8503bca5f6e
+      internalID: -1033304773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_32"
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 1167
+        width: 198
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44213568cb8fd924b921c9bfe6c66a49
+      internalID: -284963591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_33"
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 1165
+        width: 198
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237bd1af83d7a404db3441844d29cc99
+      internalID: 1004407583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_34"
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 1165
+        width: 196
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1953d7dca68af1f40ad34ec5f9584ecb
+      internalID: 594721648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_35"
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 1163
+        width: 194
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322c8783eb569b74185896d88a07b1b1
+      internalID: 1614646524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_36"
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 1165
+        width: 194
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2f4cdacf98fab48880abeea191c91d
+      internalID: 342560221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_37"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 709
+        width: 187
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f85a2f04c04ed47a2adcdc20f68b11
+      internalID: 1017000727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_38"
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 709
+        width: 188
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a26670c0ed9b5f419814ca2744411ae
+      internalID: -2059071445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_39"
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 709
+        width: 188
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f40ad8aaab595349a5b04bbe3a9225b
+      internalID: -972422931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_40"
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 707
+        width: 186
         height: 434
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -740,20 +950,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 798868c136106984892d74548655330f
-      internalID: -835290344
+      spriteID: 418e2bbb95e38c54988b3e47c9b3243e
+      internalID: -484679060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Muzhik_-_Stoit_30
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_41"
       rect:
         serializedVersion: 2
-        x: 1907
-        y: 1165
-        width: 204
-        height: 432
+        x: 835
+        y: 707
+        width: 186
+        height: 434
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -761,209 +971,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa7c08b64c7c20140a1994665c4ce7ce
-      internalID: -964322342
+      spriteID: 67120d4f5a6e2c14f804559f39f18541
+      internalID: -1097954621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Muzhik_-_Stoit_31
+      name: "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_20"
       rect:
         serializedVersion: 2
-        x: 2117
-        y: 1165
-        width: 204
-        height: 435
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7ceed2a7e8dba0468cf8dc84157e9a9
-      internalID: -1300855295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_32
-      rect:
-        serializedVersion: 2
-        x: 2326
-        y: 1165
-        width: 204
-        height: 432
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dedbbb3cbf090ae41973f295b2ae2148
-      internalID: 1436387892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_33
-      rect:
-        serializedVersion: 2
-        x: 2536
-        y: 1165
-        width: 203
-        height: 436
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b95dd6af448e010499170c1554a0c7ab
-      internalID: -1047468597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_34
-      rect:
-        serializedVersion: 2
-        x: 2744
+        x: 3723
         y: 1163
-        width: 201
-        height: 437
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 502632df982aa574786bbd0b8beecf2b
-      internalID: -870635941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_35
-      rect:
-        serializedVersion: 2
-        x: 2951
-        y: 1163
-        width: 198
-        height: 437
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64bc5b470e3bf2c4db6eac01766eaae3
-      internalID: 1045348552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_36
-      rect:
-        serializedVersion: 2
-        x: 3155
-        y: 1163
-        width: 199
-        height: 437
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f68ea0679820cde4e933b1cfc8a9b822
-      internalID: -740916864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_37
-      rect:
-        serializedVersion: 2
-        x: 3358
-        y: 1161
-        width: 197
-        height: 439
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8bc2c42499017747809a5d65bcda8e1
-      internalID: -1388473450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_38
-      rect:
-        serializedVersion: 2
-        x: 3763
-        y: 1159
-        width: 194
-        height: 440
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7137f648960065748b53a502f8e633c6
-      internalID: 988473461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_39
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 712
-        width: 204
-        height: 440
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 440}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6810c22ac65362458cc2e5166806d26
-      internalID: 913147676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_40
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 1874
-        width: 148
-        height: 168
+        width: 192
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -971,29 +992,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69b2812a9a4ec754c8a85310e5931a4d
-      internalID: 490019781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Muzhik_-_Stoit_41
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 829
-        width: 16
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fab38da45ab39194393685bf4a845e58
-      internalID: -469694755
+      spriteID: 410e4005e99758042bcb669429cf5313
+      internalID: 523203204
       vertices: []
       indices: 
       edges: []
@@ -1009,48 +1009,48 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Muzhik_-_Stoit_18: 1771675933
-      Muzhik_-_Stoit_26: -55126989
-      Muzhik_-_Stoit_31: -1300855295
-      Muzhik_-_Stoit_35: 1045348552
-      Muzhik_-_Stoit_6: -1727092844
-      Muzhik_-_Stoit_8: -934607803
-      Muzhik_-_Stoit_7: -204718715
-      Muzhik_-_Stoit_23: 625164590
-      Muzhik_-_Stoit_29: -835290344
-      Muzhik_-_Stoit_10: -2104184493
-      Muzhik_-_Stoit_30: -964322342
-      Muzhik_-_Stoit_17: 802572764
-      Muzhik_-_Stoit_2: -1203089026
-      Muzhik_-_Stoit_27: 1723265169
-      Muzhik_-_Stoit_39: 913147676
-      Muzhik_-_Stoit_33: -1047468597
-      Muzhik_-_Stoit_25: 1501784954
-      Muzhik_-_Stoit_16: -1818783317
-      Muzhik_-_Stoit_40: 490019781
-      Muzhik_-_Stoit_4: 1791790113
-      Muzhik_-_Stoit_15: -536545618
-      Muzhik_-_Stoit_19: 1877515615
-      Muzhik_-_Stoit_28: -1654245457
-      Muzhik_-_Stoit_0: 158183533
-      Muzhik_-_Stoit_3: -1135433674
-      Muzhik_-_Stoit_11: 1266778466
-      Muzhik_-_Stoit_21: 1409974571
-      Muzhik_-_Stoit_22: 2073030974
-      Muzhik_-_Stoit_34: -870635941
-      Muzhik_-_Stoit_32: 1436387892
-      Muzhik_-_Stoit_20: 1431114396
-      Muzhik_-_Stoit_24: -391132973
-      Muzhik_-_Stoit_5: -2066765606
-      Muzhik_-_Stoit_36: -740916864
-      Muzhik_-_Stoit_38: 988473461
-      Muzhik_-_Stoit_1: 2003618528
-      Muzhik_-_Stoit_12: 965954695
-      Muzhik_-_Stoit_13: -1535662192
-      Muzhik_-_Stoit_41: -469694755
-      Muzhik_-_Stoit_37: -1388473450
-      Muzhik_-_Stoit_14: -1256698088
-      Muzhik_-_Stoit_9: -310067786
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_22": 2113934751
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_0": 1586107838
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_41": -1097954621
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_32": -284963591
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_11": -1087509826
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_6": 525484399
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_26": 442678866
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_31": -1033304773
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_39": -972422931
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_19": 1504390475
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_30": 865312919
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_25": 101849362
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_17": 1836911530
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_33": 1004407583
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_35": 1614646524
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_15": 1794960066
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_2": 791570995
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_5": -1976566842
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_23": 1277063516
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_16": -1124969134
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_29": 695784174
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_20": 523203204
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_21": 174566473
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_10": -1416628730
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_24": 1405183815
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_37": 1017000727
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_3": -2039015244
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_27": 1623334089
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_36": 342560221
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_1": -1783519276
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_13": -1449669134
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_4": -1060148410
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_38": -2059071445
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_7": -1102950551
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_12": 633634816
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_14": -845209658
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_34": 594721648
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_8": 364328251
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_9": -1305522580
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_28": 1089271448
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_40": -484679060
+      "\u041C\u0443\u0436\u0438\u043A - \u0421\u0442\u043E\u0438\u0442_18": -98263875
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

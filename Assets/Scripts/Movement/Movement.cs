@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
     [SerializeField]  private float _distanceRay;
     [SerializeField] private float _jumpSlowing;
     [SerializeField] private bool _isMovementActive = true;
-
+    [SerializeField] Animator _animatin;
     private StatsManager _statsManager;
     private Transform _transform;
     private Rigidbody2D _rigidbody2D;
@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
 
     private void Start()
     {
+        _animatin = GetComponent<Animator>();
         _statsManager = GetComponent<StatsManager>();
         _transform = GetComponent<Transform>();
         _rigidbody2D = GetComponent<Rigidbody2D>(); 
@@ -43,7 +44,23 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
+       
         if (!_isMovementActive) return;
+        if (!_isGrounded) _animatin.SetFloat("Horizontal", 0);
+        else
+        _animatin.SetFloat("Horizontal", Input.GetAxisRaw("Horizontal"));
+        if(Input.GetAxisRaw("Horizontal") == -1)
+        {
+            Vector3 buffer = transform.localScale;
+            buffer.x = 1;
+            transform.localScale = buffer;
+        }
+        if(Input.GetAxisRaw("Horizontal") == 1)
+        {
+            Vector3 buffer = transform.localScale;
+            buffer.x = -1;
+            transform.localScale = buffer;
+        }
         float direction = Input.GetAxisRaw("Horizontal");
         Move(direction);
     }
@@ -56,18 +73,25 @@ public class Movement : MonoBehaviour
         if (raycastHit.collider != null)
         {
             if (raycastHit.collider.gameObject.CompareTag("Ground"))
+            {
                 _isGrounded = true;
+                if (_isGrounded)
+                    _animatin.SetBool("isJump", false);
+            }
             else
                 _isGrounded = false;
         }
         else
         {
             _isGrounded = false;
+            
         }
         if (Input.GetKeyDown(KeyCode.Space) && (_isGrounded || _isInJumpPoint ))
         {
+            _animatin.SetBool("isJump", true);
             Jump();
         }
+       
     }
     
     private void Move(float direction)
