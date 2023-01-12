@@ -5,7 +5,8 @@ using UnityEngine.Video;
 
 public class PlayVideo : MonoBehaviour
 {
-    [SerializeField] private int indexOnVideoPlaying = 4;
+    [SerializeField] private int indexOfDialogueOnVideoPlaying = 4;
+    [SerializeField] private float playTime = 3f;
 
     private VideoPlayer videoPlayer;
     private DialogueController dialogueController;
@@ -21,18 +22,18 @@ public class PlayVideo : MonoBehaviour
     void Update()
     {
         if (!isVideoPlayed && 
-        dialogueController.CurrentDialogueLineIndex == indexOnVideoPlaying)
+        dialogueController.CurrentDialogueLineIndex == indexOfDialogueOnVideoPlaying)
         {
             videoPlayer.Play();
             isVideoPlayed = true;
             timeOfPlaying = 0;
             dialogueController.DeactivateDialoguePanel();
         }
-        if (timeOfPlaying < 2f)
+        if (timeOfPlaying < playTime)
         {
             timeOfPlaying += Time.deltaTime;
         }
-        if (timeOfPlaying > 2f && isVideoPlayed)
+        if (timeOfPlaying > playTime && isVideoPlayed)
         {
             videoPlayer.Stop();
             dialogueController.ActivateDialoguePanel();

@@ -19,6 +19,11 @@ public class Fader : MonoBehaviour
         StartCoroutine(FadeIn(FadeInOnStartTime));
     }
 
+    public void FadeInImmediately()
+    {
+        canvasGroup.alpha = 0;
+    }
+
     public IEnumerator FadeIn(float time)
     {
         while (canvasGroup.alpha > 0)
