@@ -25,7 +25,7 @@ public class DialogueController : MonoBehaviour
     private int _currentDialogueLineIndex = -1;
     private bool isDialogueActive = false;
     private bool isPanelInitialized = false;
-    private AudioManager audioManager = null;
+    private AudioSource audioSource = null;
 
     public int CurrentDialogueLineIndex { get { return _currentDialogueLineIndex; } }
 
@@ -33,7 +33,7 @@ public class DialogueController : MonoBehaviour
     {   
         InitializeDialoguePanel();
         tmp_dialogueHint.text = "Нажмите " + keyToContinueDialogue.ToString() + ", чтобы продолжить";
-        audioManager = FindObjectOfType<AudioManager>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void OnEnable()
@@ -106,12 +106,11 @@ public class DialogueController : MonoBehaviour
         tmp_speakerName.text = dialogueLine.speakerData.speakerName;
         if (dialogueLine.voiceText != null)
         {
-            audioManager.audioSource.clip = dialogueLine.voiceText;
-            audioManager.audioSource.Play();
+            audioSource.clip = dialogueLine.voiceText;
+            audioSource.Play();
         }
         StartCoroutine(TextVisualisation(dialogueLine.text));
         portrait.sprite = dialogueLine.speakerData.portrait;
-        portrait.color = dialogueLine.speakerData.color;
     }
 
     private IEnumerator TextVisualisation(string text)
