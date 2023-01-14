@@ -47,10 +47,16 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!_isMovementActive) return;
+
+        
+        if (!_isMovementActive)
+        {
+            _animatin.SetFloat("Horizontal", 0);
+            return;
+        }
         if (!_isGrounded) _animatin.SetFloat("Horizontal", 0);
         else
-        _animatin.SetFloat("Horizontal", Input.GetAxisRaw("Horizontal"));
+            _animatin.SetFloat("Horizontal", Input.GetAxisRaw("Horizontal"));
 
         if(Input.GetAxisRaw("Horizontal") == -1)
         {
