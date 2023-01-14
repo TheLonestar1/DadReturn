@@ -8,13 +8,16 @@ public class Movement : MonoBehaviour
     [SerializeField]  private float _distanceRay;
     [SerializeField] private float _jumpSlowing;
     [SerializeField] private bool _isMovementActive = true;
+    [SerializeField] private float BonusTimeToJump = 0.3f;
     [SerializeField] Animator _animatin;
+
     private StatsManager _statsManager;
     private Transform _transform;
     private Rigidbody2D _rigidbody2D;
     private JumpPoint _currentJumpPoint;
     private bool _isGrounded;
     private bool _isInJumpPoint;
+    private float _timeAfterJump = Mathf.Infinity;
 
     private void Start()
     {
@@ -44,6 +47,7 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
+
         
         if (!_isMovementActive)
         {
@@ -53,12 +57,14 @@ public class Movement : MonoBehaviour
         if (!_isGrounded) _animatin.SetFloat("Horizontal", 0);
         else
             _animatin.SetFloat("Horizontal", Input.GetAxisRaw("Horizontal"));
+
         if(Input.GetAxisRaw("Horizontal") == -1)
         {
             Vector3 buffer = transform.localScale;
             buffer.x = 1;
             transform.localScale = buffer;
         }
+
         if(Input.GetAxisRaw("Horizontal") == 1)
         {
             Vector3 buffer = transform.localScale;
@@ -79,6 +85,7 @@ public class Movement : MonoBehaviour
             if (raycastHit.collider.gameObject.CompareTag("Ground"))
             {
                 _isGrounded = true;
+                _timeAfterJump = 0f;
                 if (_isGrounded)
                     _animatin.SetBool("isJump", false);
             }
@@ -90,14 +97,21 @@ public class Movement : MonoBehaviour
             _isGrounded = false;
             
         }
-        if (Input.GetKeyDown(KeyCode.Space) && (_isGrounded || _isInJumpPoint ))
+        if (Input.GetKeyDown(KeyCode.Space) 
+        && (_isGrounded || _isInJumpPoint || _timeAfterJump < BonusTimeToJump))
         {
             _animatin.SetBool("isJump", true);
             Jump();
         }
        
+        UpdateTimers();
     }
-    
+
+    private void UpdateTimers()
+    {
+        _timeAfterJump += Time.deltaTime;
+    }
+
     private void Move(float direction)
     {
         float speed = _statsManager.GetModifiedStat(StatType.Speed) * direction;
