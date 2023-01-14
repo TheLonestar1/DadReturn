@@ -35,9 +35,9 @@ Thumbs.db
 UserSettings/Layouts/default-2021.dwlt
 UserSettings/Layouts/default-2021.dwlt
 UserSettings/Layouts/default-2021.dwlt
+
+*.dwlt
+UserSettings/EditorUserSettings.asset
 Logs/shadercompiler-UnityShaderCompiler.exe0.log
-.vs/DadReturn/v17/fileList.bin
-.vs/DadReturn/v17/fileList.bin
-*.bin
 *.log
-Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
