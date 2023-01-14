@@ -8,13 +8,12 @@ public class CheckPointSave : MonoBehaviour
 
     [SerializeField] private Color colorWhenDeactivated;
     [SerializeField] private Color colorWhenActivated;
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private GameObject lighting;
 
     private bool _isActivatedBefore;   
 
     void Start()
     {
-
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -22,6 +21,7 @@ public class CheckPointSave : MonoBehaviour
         if (other.gameObject.tag == "Player" && !_isActivatedBefore)
         {
             _isActivatedBefore = true;
+            lighting.SetActive(true);
             OnSavePoint?.Invoke(gameObject.transform.position);
         }
     }

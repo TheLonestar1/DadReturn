@@ -6,20 +6,23 @@ using UnityEngine;
 public class StaticTrap : MonoBehaviour
 {
     public static event Action OnEnteringTrap;
+    
+    private AudioSource audioSource;
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-
-        // если триггер задел игрок и при этом диалог не был активирован ранее:
-        // Вызов диалога
         if (other.gameObject.tag == "Player")
         {
-            OnEnteringTrap.Invoke();
+            if (audioSource.clip != null) 
+            {
+                audioSource.Play();
+            }
+            OnEnteringTrap?.Invoke();
         }
     }
 }
