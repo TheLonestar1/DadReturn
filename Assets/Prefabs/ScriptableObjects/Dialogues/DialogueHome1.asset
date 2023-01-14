@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueLines:
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 74262a73a55e6fa459239810a422ac28, type: 3}
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u042F \u043F\u043E\u0448\u0451\u043B \u0437\u0430 \u0445\u043B\u0435\u0431\u043E\u043C"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 74262a73a55e6fa459239810a422ac28, type: 3}
