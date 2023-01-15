@@ -12,6 +12,7 @@ public class EnemyMove : MonoBehaviour
     [SerializeField] Transform target;
     [SerializeField] DialogueController controller;
     float _koeef = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class EnemyMove : MonoBehaviour
         DialogueController.onDialogueEnd += t;
         DialogueController.onDialogueStart += t2;
     }
+
     void t()
     { 
         if (controller.NumberOfFinishedDialogues == 1)

@@ -16,22 +16,22 @@ MonoBehaviour:
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u042D\u044D\u044D\u0445, \u0432\u043E\u0442 \u0442\u0430\u043A \u0434\u0435\u043B\u0430
       \u0434\u0435\u043B\u0430\u044E\u0442\u0441\u044F!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 8e62f50dccf921f4b88222bff65961f0, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u0410 \u0445\u043E\u0440\u043E\u0448\u0438\u0439 \u0442\u044B \u0432\u0441\u0451
       \u0442\u0430\u043A\u0438 \u043C\u0443\u0436\u0438\u043A!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 2770bae34ff83ac46a3c5465bdc23f5e, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u0421\u0442\u043E\u0438\u043B\u043E \u0436\u0435 \u0440\u0430\u0434\u0438
       \u044D\u0442\u043E\u0433\u043E \u0443\u0441\u0442\u0440\u043E\u0438\u0442\u044C
       \u0437\u0430\u0441\u0430\u0434\u0443 \u043D\u0430 \u0446\u0435\u043B\u0443\u044E
       \u0444\u0443\u0440\u0443 \u0441 \u0432\u043E\u0434\u043A\u043E\u0439!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: c8f54353fc269ef42a22d2d5fc1a9105, type: 3}
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u0410\u0445... \u0422\u0430\u043A \u044D\u0442\u043E \u0442\u044B \u0441\u0434\u0435\u043B\u0430\u043B? "
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 8397319dd7603d24cb10f109bc013c64, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u041D\u0443 \u043A\u043E\u043D\u0435\u0447\u043D\u043E! \u0410 \u043A\u0442\u043E
       \u0436\u0435 \u0435\u0449\u0451! \u0414\u0430\u0432\u0430\u0439 \u0435\u0449\u0451
       \u043F\u043E \u043E\u0434\u043D\u043E\u0439!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: ebf6b1e9847e7e84bb0860bc456e1f83, type: 3}

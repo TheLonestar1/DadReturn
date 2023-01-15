@@ -15,17 +15,17 @@ MonoBehaviour:
   dialogueLines:
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: ...
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 239223431b1099a479271d139b6047ef, type: 3}
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u0420\u044F\u0434\u043E\u043C \u043A\u0442\u043E-\u0442\u043E \u0435\u0441\u0442\u044C"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 6d638e9438562844eaf9d78d5b4f5f26, type: 3}
   - speakerData: {fileID: 11400000, guid: 9a99fa975dcca794fb678d2817a8d254, type: 2}
     text: "\u042D\u042D\u042D \u041C\u0423\u0416\u0418\u041A\u0418, \u0423 \u041D\u0415\u0413\u041E
       \u0411\u0423\u041B\u041A\u0410 \u0425\u041B\u0415\u0411\u0410 \u0421 \u0421\u041E\u0411\u041E\u0419"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: acf12ae5920f38149b042b344d11bd94, type: 3}
   - speakerData: {fileID: 11400000, guid: 9a99fa975dcca794fb678d2817a8d254, type: 2}
-    text: "\u041C\u0423\u0416\u0418\u041A, \u0414\u0410\u0419 \u041F\u041E\u0416\u0420\u0410\u0422\u042C!"
-    voiceText: {fileID: 0}
+    text: "\u041C\u0423\u0416\u0418\u041A, \u0414\u0410\u0419 \u0417\u0410\u041A\u0423\u0421\u0418!"
+    voiceText: {fileID: 8300000, guid: 516898642958f674f9c249c3914bca73, type: 3}
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u041D\u0410\u0414\u041E \u0411\u0415\u0416\u0410\u0422\u042C!!!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 9da91139631ec164c87c58a1e8bfb1aa, type: 3}

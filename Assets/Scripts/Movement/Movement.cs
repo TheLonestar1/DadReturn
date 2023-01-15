@@ -1,5 +1,5 @@
 using UnityEngine;
-using System;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(StatsManager))]
 public class Movement : MonoBehaviour
@@ -10,11 +10,13 @@ public class Movement : MonoBehaviour
     [SerializeField] private bool _isMovementActive = true;
     [SerializeField] private float BonusTimeToJump = 0.3f;
     [SerializeField] Animator _animatin;
+    [SerializeField] private List<AudioClip> walkClips = null;
 
     private StatsManager _statsManager;
     private Transform _transform;
     private Rigidbody2D _rigidbody2D;
-    private JumpPoint _currentJumpPoint;
+    private JumpPoint _currentJumpPoint;   
+    private AudioSource _audioSource;
     private bool _isGrounded;
     private bool _isInJumpPoint;
     private float _timeAfterJump = Mathf.Infinity;
@@ -25,6 +27,7 @@ public class Movement : MonoBehaviour
         _statsManager = GetComponent<StatsManager>();
         _transform = GetComponent<Transform>();
         _rigidbody2D = GetComponent<Rigidbody2D>(); 
+        _audioSource = GetComponent<AudioSource>();
     } 
 
     void OnEnable()
@@ -174,5 +177,12 @@ public class Movement : MonoBehaviour
         {
             _currentJumpPoint = jumpPoint;
         }
+    }
+
+    public void PlayRandomSound()
+    {
+        int random = Random.Range(0, walkClips.Count - 1);
+        _audioSource.clip = walkClips[random];
+        _audioSource.Play();
     }
 }

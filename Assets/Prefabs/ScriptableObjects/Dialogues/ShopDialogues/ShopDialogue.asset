@@ -16,40 +16,40 @@ MonoBehaviour:
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435,
       \u0430 \u043C\u043E\u0436\u043D\u043E..."
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 38c11d2585b45cc488a2cee2ef349756, type: 3}
   - speakerData: {fileID: 11400000, guid: c61dee07c1e406144b71713828d7427f, type: 2}
     text: "\u041F\u041E\u0421\u041C\u041E\u0422\u0420\u0418\u0422\u0415, \u041A\u041E\u0413\u041E
       \u041A \u041D\u0410\u041C \u041D\u041E\u0427\u042C\u042E \u0417\u0410\u041D\u0415\u0421\u041B\u041E!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: e7064e0ec8ade4c4ca42f2d0e0ebc6a1, type: 3}
   - speakerData: {fileID: 11400000, guid: c61dee07c1e406144b71713828d7427f, type: 2}
     text: "\u0427\u0415\u0413\u041E \u041F\u0420\u0418\u041F\u0401\u0420\u0421\u042F"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 90058e06da973d54f9b86967d358b8da, type: 3}
   - speakerData: {fileID: 11400000, guid: c61dee07c1e406144b71713828d7427f, type: 2}
     text: "\u0428\u0415\u041B\u0423\u0414\u0418\u0412\u042B\u0419 \u041E\u0411\u041E\u041B\u0414\u0423\u0419,
       \u0427\u0415\u0413\u041E \u041D\u041E\u0427\u042C\u042E \u0428\u041B\u042F\u0415\u0428\u042C\u0421\u042F?"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 9c9547d0033bd7742b384daf83a15939, type: 3}
   - speakerData: {fileID: 11400000, guid: c61dee07c1e406144b71713828d7427f, type: 2}
     text: "\u041D\u0415\u0411\u041E\u0421\u042C \u042D\u0422\u041E \u0422\u042B \u0420\u0410\u0417\u0411\u0418\u041B
       \u0413\u0420\u0423\u0417\u041E\u0412\u0418\u041A \u0421 \u0412\u041E\u0414\u041A\u041E\u0419!?!?!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 0495b0438e2c3a44f82869160fefc448, type: 3}
   - speakerData: {fileID: 11400000, guid: c61dee07c1e406144b71713828d7427f, type: 2}
     text: "\u0421\u0422\u041E\u041B\u042C\u041A\u041E \u0414\u0415\u041D\u0415\u0413
       \u041C\u042B \u041F\u041E\u0422\u0420\u0410\u0422\u0418\u041B\u0418 \u041D\u0410
       \u041D\u0415\u0413\u041E!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 534216370c8c6db459f112a136d543ca, type: 3}
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u0414\u0430 \u044F \u0445\u043B\u0435\u0431\u0430 \u043A\u0443\u043F\u0438\u0442\u044C
       \u0437\u0430\u0448\u0451\u043B..."
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: da8ffc8a67b42564d91d633ca9d2cfbe, type: 3}
   - speakerData: {fileID: 11400000, guid: c61dee07c1e406144b71713828d7427f, type: 2}
     text: "\u0410\u0425 \u0412\u041E\u0422 \u041A\u0410\u041A \u0422\u042B \u0421\u041E
       \u041C\u041D\u041E\u0419 \u0420\u0410\u0417\u0413\u041E\u0412\u0410\u0420\u0418\u0412\u0410\u0415\u0428\u042C!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: ab5f49d0bd671db4a87a8ed427b11653, type: 3}
   - speakerData: {fileID: 11400000, guid: c61dee07c1e406144b71713828d7427f, type: 2}
     text: "\u0414\u0415\u0420\u0416\u0418 \u0421\u0412\u041E\u0419 \u0425\u041B\u0415\u0411
       \u0418 \u041F\u0420\u041E\u0412\u0410\u041B\u0418\u0412\u0410\u0419, \u041D\u0415\u0411\u041B\u0410\u0413\u041E\u0414\u0410\u0420\u041D\u042B\u0419!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 2c7f11d3c6c5fa64996fd4453520b399, type: 3}
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u041B\u0430\u0434\u043D\u043E... \u0427\u0442\u043E \u044D\u0442\u043E
       \u0431\u044B\u043B\u043E?"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 0ada2fad9cb902640b4887122ab6a6f6, type: 3}

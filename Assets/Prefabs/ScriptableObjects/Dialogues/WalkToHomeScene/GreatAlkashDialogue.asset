@@ -15,48 +15,48 @@ MonoBehaviour:
   dialogueLines:
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u0427\u0451\u0440\u0442!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: e4199716c62d9774facd66527c0a64be, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u041E\u043E\u043E, \u043A\u043E\u0433\u043E \u044F \u0432\u0438\u0436\u0443!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: e23105043590ad64f8871b8ce6c8fd1b, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u041C\u043E\u0439 \u0441\u0442\u0430\u0440\u0438\u043D\u043D\u044B\u0439
       \u0434\u0440\u0443\u0433!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 7bc83175e6821ed478a264caf49f0483, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u041E\u0434\u0438\u043D \u043D\u0430\u0448 \u043E\u0431\u0449\u0438\u0439
       \u0437\u043D\u0430\u043A\u043E\u043C\u044B\u0439 \u0441\u043A\u0430\u0437\u0430\u043B,
       \u0447\u0442\u043E \u0442\u044B \u0432\u044B\u0448\u0435\u043B \u0437\u0430
       \u0445\u043B\u0435\u0431\u043E\u043C!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: dab06b83d258de94780932ceac3339d5, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u042D\u0442\u043E \u0443\u0436\u0435 \u043F\u043E\u0432\u043E\u0434 \u0432\u044B\u043F\u0438\u0442\u044C!
       \u0410\u0439\u0434\u0430 \u043A \u043D\u0430\u043C, \u0443 \u043D\u0430\u0441
       \u043C\u043D\u043E\u0433\u043E \u0430\u043B\u043A\u0430\u0448\u043A\u0438!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 039fd6c5d6c4a8d4facb51ff5b02ddbe, type: 3}
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u0414\u0430 \u043D\u0435\u0442, \u043D\u0435\u0442, \u044F..."
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 23a645b1cf09bb64fbac77f958f0aaaa, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u041C\u044B \u0432\u0441\u0435\u0433\u0434\u0430 \u043F\u043E\u0434\u0435\u043B\u0438\u043C\u0441\u044F
       \u0432\u043E\u0434\u043A\u043E\u0439 \u0441 \u043D\u0430\u0448\u0438\u043C
       \u043B\u044E\u0431\u0438\u043C\u044B\u043C \u0441\u043E\u0431\u0443\u0442\u044B\u043B\u044C\u043D\u0438\u043A\u043E\u043C!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 7aeb3d8d17133544ca198619181fcb46, type: 3}
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u041D\u0435\u0442, \u043C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E
       \u0434\u043E\u043C\u043E\u0439..."
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: ed5e47cead12c8843b01ac6485c0f2d5, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u0427\u0442\u043E\u043E\u043E? \u0427\u0442\u043E \u0436\u0435 \u0442\u044B
       \u043D\u0430\u0441 \u0440\u0430\u0437\u043E\u0447\u0430\u0440\u043E\u0432\u044B\u0432\u0430\u0435\u0448\u044C?!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: a76fe98900768bd44804b49c547d93ba, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u0422\u0430\u043A \u0434\u0435\u043B\u0430 \u043D\u0435 \u0434\u0435\u043B\u0430\u044E\u0442\u0441\u044F"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 53f00940373dce9418bc5cc7f5cc84b4, type: 3}
   - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
     text: "\u042D\u044D\u044D\u0445. \u041B\u0430\u0434\u043D\u043E. \u0412\u0435\u0434\u0438"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 33e80209a05cd764a932610172575e8f, type: 3}
   - speakerData: {fileID: 11400000, guid: 17196b81f5e8c7944a46339fbb7b8b52, type: 2}
     text: "\u0422\u043E \u0442\u043E \u0436\u0435, \u0432\u0438\u0434\u0438\u0448\u044C,
       \u0441\u043E\u0432\u0441\u0435\u043C \u0434\u0440\u0443\u0433\u043E\u0435 \u0434\u0435\u043B\u043E!"
-    voiceText: {fileID: 0}
+    voiceText: {fileID: 8300000, guid: 2c9bc79f33bbcc84593986394dedadd0, type: 3}
