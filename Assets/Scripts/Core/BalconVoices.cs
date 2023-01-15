@@ -22,9 +22,9 @@ public class BalconVoices : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player" && audioSource.isPlaying)
-        {
-            audioSource.Stop();
-        }
+        // if (other.gameObject.tag == "Player" && audioSource.isPlaying)
+        // {
+        //     audioSource.Stop();
+        // }
     }
 }
