@@ -35,6 +35,3 @@ MonoBehaviour:
       \u0436\u0435 \u0435\u0449\u0451! \u0414\u0430\u0432\u0430\u0439 \u0435\u0449\u0451
       \u043F\u043E \u043E\u0434\u043D\u043E\u0439!"
     voiceText: {fileID: 0}
-  - speakerData: {fileID: 11400000, guid: c2e4dca399c61204f9435a7a93f4386c, type: 2}
-    text: "\u0423\u0445... \u041D\u0443 \u0438 \u0433\u0430\u0434\u043E\u0441\u0442\u044C"
-    voiceText: {fileID: 0}
