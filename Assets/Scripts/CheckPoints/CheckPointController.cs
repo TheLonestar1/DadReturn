@@ -7,7 +7,6 @@ public class CheckPointController : MonoBehaviour
 {
     public static event Action onDie;
     public static event Action onRespawn;
-
     [SerializeField] private float FadeInTime = 0.5f;
     [SerializeField] private float fadeWaitTime = 0.2f;
     [SerializeField] private float fadeOutTime = 0.4f;
@@ -51,5 +50,6 @@ public class CheckPointController : MonoBehaviour
         yield return new WaitForSeconds(fadeWaitTime);
         onRespawn?.Invoke();
         yield return fader.FadeIn(FadeInTime);
+        
     }
 }
