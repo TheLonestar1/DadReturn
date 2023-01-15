@@ -832,7 +832,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 522, y: 320}
+  m_AnchoredPosition: {x: 451, y: 320}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1565511221
@@ -929,7 +929,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -439.21616, w: -413.49634}
+  m_margin: {x: 0, y: 0, z: -547.9584, w: -413.49634}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_text: "\u0413\u0435\u0439\u043C\u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u044B,
     \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0441\u0442\u044B, \u0441\u0446\u0435\u043D\u0430\u0440\u0438\u0441\u0442\u044B:\n\u042E\u0440\u0438\u0439
     \u042E\u0440\u044C\u0435\u0432\n\u0421\u0435\u0440\u0433\u0435\u0439 \u0413\u0430\u043B\u0441\u0430\u043D\u043E\u0432\n\n\n\n\u0413\u0440\u0430\u0444\u0438\u043A\u0430:
-    \nVladClown (youtube)\n\u0410\u043B\u0438\u0441\u0430 \u0413\u043E\u043D\u043D\u043E\u0432\u0430\n\n\n\u0410\u043D\u0438\u043C\u0430\u0446\u0438\u0438:\nVladClown\n\n\n\u0420\u0430\u0431\u043E\u0442\u0430
+    \nVilord (youtube: Vilord Studio)\n\u0410\u043B\u0438\u0441\u0430 \u0413\u043E\u043D\u043D\u043E\u0432\u0430\n\n\n\u0410\u043D\u0438\u043C\u0430\u0446\u0438\u0438:\nVilord\n\n\n\u0420\u0430\u0431\u043E\u0442\u0430
     \u0441\u043E \u0437\u0432\u0443\u043A\u043E\u043C \u0438 \u0437\u0430\u043F\u0438\u0441\u044C
     \u043E\u0437\u0432\u0443\u0447\u043A\u0438:\n\u041C\u0438\u0445\u0430\u0438\u043B
     \u0422\u044E\u043C\u0435\u043D\u0446\u0435\u0432"
