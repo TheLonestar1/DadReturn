@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbbe503dd23b52f4492c6a46b81ac564, type: 3}
-  m_Name: MuzhikSpeaker
+  m_Name: AlkashSpeaker
   m_EditorClassIdentifier: 
-  speakerName: "\u0422\u043E\u043B\u044F"
-  portrait: {fileID: -1763408184, guid: 2bbb9ff2f05e06d48b5654934e0266fe, type: 3}
-  color: {r: 1, g: 1, b: 1, a: 1}
+  speakerName: "\u0410\u043B\u043A\u0430\u0448"
+  portrait: {fileID: -1306021021, guid: a96aab8588003eb49a43bec4da9e423f, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 0}
