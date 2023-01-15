@@ -12,6 +12,8 @@ public class DialogueController : MonoBehaviour
     public static event Action onDialogueEnd;
     public static event Action onVideoPlay;
 
+    
+
     // Объекты для хранения информации о диалоге
     [SerializeField] private GameObject dialoguePanel = null;
     [SerializeField] private TMP_Text tmp_speakerName = null;
@@ -23,10 +25,12 @@ public class DialogueController : MonoBehaviour
     [SerializeField] private KeyCode keyToContinueDialogue = KeyCode.F;
 
     private int _currentDialogueLineIndex = -1;
+    private  int _numberOfFinishedDialogues = 1;
     private bool isDialogueActive = false;
     private bool isPanelInitialized = false;
     private AudioSource audioSource = null;
 
+    public int NumberOfFinishedDialogues { get { return _numberOfFinishedDialogues; } }
     public int CurrentDialogueLineIndex { get { return _currentDialogueLineIndex; } }
 
     private void Start()
@@ -34,6 +38,7 @@ public class DialogueController : MonoBehaviour
         InitializeDialoguePanel();
         tmp_dialogueHint.text = "Нажмите " + keyToContinueDialogue.ToString() + ", чтобы продолжить";
         audioSource = GetComponent<AudioSource>();
+        _numberOfFinishedDialogues = 0;
     }
 
     void OnEnable()
@@ -97,7 +102,9 @@ public class DialogueController : MonoBehaviour
 
         if (dialogueLine == null)
         {
+            _numberOfFinishedDialogues++;
             onDialogueEnd?.Invoke();
+            Debug.Log("завершённые диалоги = " + _numberOfFinishedDialogues);
             DeactivateDialoguePanel();
             return;
         }

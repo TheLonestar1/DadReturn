@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lastGroundedTime: 0
-  _distanceRay: 2.2
+  _distanceRay: 3
   _jumpSlowing: 2
   _isMovementActive: 1
   BonusTimeToJump: 0.3

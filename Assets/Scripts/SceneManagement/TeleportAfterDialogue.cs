@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class TeleportAfterDialogue : MonoBehaviour
 {
+    [SerializeField] private int afterWhichDialogueTeleport = 1;
+
+    private int dialoguesEnded = 0;
+
     private SceneTransition sceneTransition;
 
     void OnEnable()
@@ -24,7 +28,11 @@ public class TeleportAfterDialogue : MonoBehaviour
 
     private void Teleport()
     {
-        Debug.Log("Teleporting");
-        sceneTransition.StartTransition();
+        dialoguesEnded++;
+        if (dialoguesEnded == afterWhichDialogueTeleport)
+        {
+            Debug.Log("Teleporting");
+            sceneTransition.StartTransition();
+        }
     }
 }

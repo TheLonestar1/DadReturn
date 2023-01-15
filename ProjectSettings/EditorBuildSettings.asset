@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 6fb42d2385af9db4580f85847a8394aa
@@ -18,9 +18,21 @@ EditorBuildSettings:
     path: Assets/Scenes/WalkToShop.unity
     guid: f51135a04e747f74ea4385005c662842
   - enabled: 1
+    path: Assets/Scenes/ShopScene.unity
+    guid: fddf9c04809b8e44b9649bdc8428a6fd
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 46ca07c3864a0884db307a14c3ede079
+  - enabled: 1
+    path: Assets/Scenes/AlcoDiologScene.unity
+    guid: 324a6b26ae248dd4eaa1e2e9ed187e07
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: ed531a16ec686f74ba1144220ea9b3a5
+  - enabled: 0
     path: Assets/Scenes/FirstScene.unity
     guid: ea3672761966d1943b45b051ad57385a
   - enabled: 1
-    path: Assets/Scenes/ShopScene.unity
-    guid: fddf9c04809b8e44b9649bdc8428a6fd
+    path: Assets/Scenes/EnteringScene12.unity
+    guid: 84219b0a803da5847b563736d00dd6b8
   m_configObjects: {}

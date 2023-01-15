@@ -75,9 +75,15 @@ public class Movement : MonoBehaviour
         Move(direction);
     }
 
-    private void Update()
+    private void Update() 
     {
-        if (!_isMovementActive) return;
+
+        if (!_isMovementActive)
+        {
+            _animatin.SetBool("isJump", false);
+            return;
+        }
+        if (!_isGrounded) _animatin.SetBool("isJump", true);
         RaycastHit2D raycastHit = Physics2D.Raycast(gameObject.GetComponent<Transform>().position, Vector2.down * _distanceRay, _distanceRay, layerMask: LayerMask.GetMask("Ground"));
         Debug.DrawRay(this.gameObject.GetComponent<Transform>().position, Vector2.down * _distanceRay);
         if (raycastHit.collider != null)
@@ -86,6 +92,7 @@ public class Movement : MonoBehaviour
             {
                 _isGrounded = true;
                 _timeAfterJump = 0f;
+                
                 if (_isGrounded)
                     _animatin.SetBool("isJump", false);
             }
@@ -141,7 +148,8 @@ public class Movement : MonoBehaviour
     private void DisableMovement()
     {
         _isMovementActive = false;
-        _rigidbody2D.velocity = new Vector2(0, 0);
+        if(_rigidbody2D != null)
+            _rigidbody2D.velocity = new Vector2(0, 0);
     }
 
     private void EnableJumpingOnPoint()
