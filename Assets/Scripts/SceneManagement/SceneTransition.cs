@@ -20,7 +20,7 @@ public class SceneTransition : MonoBehaviour
 
     public void StartTransition()
     {
-        Fader fader = FindObjectOfType<Fader>();
+        Fader fader = Fader.GetInstance;
         StopAllCoroutines();
         fader.FadeInImmediately();
         StartCoroutine(Transition(fader));

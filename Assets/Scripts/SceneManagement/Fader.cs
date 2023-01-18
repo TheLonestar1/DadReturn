@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Fader : MonoBehaviour
 {
-    [SerializeField] private float FadeInOnStartTime = 1f;
+    public static Fader GetInstance { get { return _instance; } }
 
+    [SerializeField] private float FadeInStartTime = 1f;
+
+    private static Fader _instance;
     private CanvasGroup canvasGroup;
 
     private void Awake()
@@ -16,7 +19,15 @@ public class Fader : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(FadeIn(FadeInOnStartTime));
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else 
+        {
+            Destroy(this.gameObject);
+        }
+        StartCoroutine(FadeIn(FadeInStartTime));
     }
 
     public void FadeInImmediately()

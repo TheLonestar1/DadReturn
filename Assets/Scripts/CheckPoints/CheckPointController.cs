@@ -12,19 +12,17 @@ public class CheckPointController : MonoBehaviour
     [SerializeField] private float fadeOutTime = 0.4f;
 
     private Vector3 currentCheckPoint;
-    private Fader fader;
 
     void Start()
     {
         currentCheckPoint = transform.position;
         CheckPointSave.OnSavePoint += SaveNewPoint;
-        fader = GameObject.FindObjectOfType<Fader>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         var trap = other.GetComponent<StaticTrap>();
-
+        Fader fader = Fader.GetInstance;
         if (trap)
         {
             StopAllCoroutines();
@@ -33,7 +31,7 @@ public class CheckPointController : MonoBehaviour
                 fader.FadeInImmediately();
             }
             
-            StartCoroutine(TeleportOnPoint());
+            StartCoroutine(TeleportOnPoint(fader));
         }
     }
 
@@ -42,7 +40,7 @@ public class CheckPointController : MonoBehaviour
         currentCheckPoint = point;
     }
 
-    private IEnumerator TeleportOnPoint()
+    private IEnumerator TeleportOnPoint(Fader fader)
     {
         onDie?.Invoke();
         yield return fader.FadeOut(fadeOutTime);
